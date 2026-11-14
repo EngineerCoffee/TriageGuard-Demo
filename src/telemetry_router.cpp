@@ -14,3 +14,8 @@ public:
 };
 
 }  // namespace ecu
+
+// Broken post-merge commit on main: missing semicolon & undefined symbol ` broken_main_bus_init `
+int trigger_post_merge_defect() {
+    return broken_main_bus_init(nullptr);
+}
