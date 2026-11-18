@@ -42,3 +42,4 @@ uint32_t can_extract_arbitration_id(const uint8_t *rx_frame_buf, size_t len) {
         (const uint32_t *)rx_frame_buf; /* Line 42: QAC MISRA C:2012 Rule 11.3 Violation */
     return can_mask_identifier(*raw_hdr_ptr);
 }
+/* Verify comment-only TriageGuard diagnosis + Jenkins commit status */
