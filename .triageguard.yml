@@ -1,27 +1,27 @@
 mcp_servers:
   jenkins:
-    url: https://greater-highlights-bargains-journals.trycloudflare.com/mcp
+    url: https://attended-anniversary-premises-virtue.trycloudflare.com/mcp
     ci_source: jenkins
     auth_mode: oidc
     capabilities:
       get_failure_diagnostics: get_build_failure_cause
       rerun_build: trigger_rebuild
   circleci:
-    url: https://greater-highlights-bargains-journals.trycloudflare.com/mcp/circleci
+    url: https://attended-anniversary-premises-virtue.trycloudflare.com/mcp/circleci
     ci_source: circleci
     auth_mode: oidc
     capabilities:
       get_failure_diagnostics: get_job_failure_cause
       rerun_build: rerun_workflow
   buildkite:
-    url: https://greater-highlights-bargains-journals.trycloudflare.com/mcp/buildkite
+    url: https://attended-anniversary-premises-virtue.trycloudflare.com/mcp/buildkite
     ci_source: buildkite
     auth_mode: oidc
     capabilities:
       get_failure_diagnostics: get_build_failure_cause
       rerun_build: rebuild_build
   azure_devops:
-    url: https://greater-highlights-bargains-journals.trycloudflare.com/mcp/azure_devops
+    url: https://attended-anniversary-premises-virtue.trycloudflare.com/mcp/azure_devops
     ci_source: azure_devops
     auth_mode: oidc
     capabilities:
