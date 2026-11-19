@@ -1,27 +1,27 @@
 mcp_servers:
   jenkins:
-    url: https://ethernet-partner-agents-titanium.trycloudflare.com/mcp
+    url: https://journalists-associates-plastic-yesterday.trycloudflare.com/mcp
     ci_source: jenkins
     auth_mode: oidc
     capabilities:
       get_failure_diagnostics: get_build_failure_cause
       rerun_build: trigger_rebuild
   circleci:
-    url: https://ethernet-partner-agents-titanium.trycloudflare.com/mcp/circleci
+    url: https://journalists-associates-plastic-yesterday.trycloudflare.com/mcp/circleci
     ci_source: circleci
     auth_mode: oidc
     capabilities:
       get_failure_diagnostics: get_job_failure_cause
       rerun_build: rerun_workflow
   buildkite:
-    url: https://ethernet-partner-agents-titanium.trycloudflare.com/mcp/buildkite
+    url: https://journalists-associates-plastic-yesterday.trycloudflare.com/mcp/buildkite
     ci_source: buildkite
     auth_mode: oidc
     capabilities:
       get_failure_diagnostics: get_build_failure_cause
       rerun_build: rebuild_build
   azure_devops:
-    url: https://ethernet-partner-agents-titanium.trycloudflare.com/mcp/azure_devops
+    url: https://journalists-associates-plastic-yesterday.trycloudflare.com/mcp/azure_devops
     ci_source: azure_devops
     auth_mode: oidc
     capabilities:
