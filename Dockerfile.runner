@@ -1,0 +1,4 @@
+# CI Build Runner Image
+FROM ghcr.io/engineercoffee/triageguard:latest
+LABEL org.opencontainers.image.description="ECU Telemetry Build Runner"
+# Trigger second run on PR #3
